@@ -1,0 +1,13 @@
+h2 {
+    color: indianred;
+    font-size: 300%;
+}
+a {
+    text-decoration: none;
+}
+a::after{
+    content: "] ";
+}
+a::before{
+    content: " [";
+}
